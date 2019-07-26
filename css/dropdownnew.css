@@ -1,0 +1,100 @@
+.sidenavigation {
+    height: 180px;
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: white;
+    position:fixed;
+    
+   
+}
+
+    .mainheadertablet {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 30px;
+        font-size: 50px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(231, 34, 238);
+        position: fixed;
+        margin-top: 35px;
+    }
+    
+    .mainheadertablet2 {
+        display: inline-block;
+        margin-left: 30px;
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(141, 141, 247);
+        margin-top: 75px;
+    }
+
+    .menubar {
+        display:inline-block;
+        overflow: hidden;
+        position: fixed;
+        margin-top:42px;
+        margin-left:380px;
+
+    }
+
+    .dropdownmenu {
+        display: inline-block;
+        height:800px;
+        width: 100%;
+        background-color: rgb(53, 53, 54);
+        margin-top: 40px;
+        
+    }
+
+    .lowersolidbar {
+
+        display: inline-block;
+        height:700px;
+        width: 100%;
+        background-color: rgb(12, 12, 12);
+    }
+    
+    .home {
+        display: inline-block;
+        font-size:20px;
+        color: blue;
+        margin-top: 300px;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .portfolio {
+        display: inline-block;
+        font-size:20px;
+        color: blue;
+        margin-left: 35px;
+        margin-top: 300px;
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .resume {
+        display: inline-block;
+        font-size:20px;
+        color: rgb(16, 35, 212);
+        margin-left: 35px;
+        margin-top: 300px;
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .contact {
+        display: inline-block;
+        font-size:20px;
+        color: rgb(12, 31, 201);
+        margin-left: 35px;
+        margin-top: 300px; 
+        overflow: hidden;
+        position: fixed;
+
+    }
+    

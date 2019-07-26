@@ -1,0 +1,275 @@
+/*.background {
+    display: inline-block;
+    background-color: rgb(158, 0, 0);
+    height: 928px;
+    width: 100%;
+}
+*/
+.sidenavigation {
+    display: inline-block;
+    background-color: rgb(19, 19, 19);
+    height: 930px;
+    width: 270px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    overflow: hidden;
+    border-right-style: solid;
+    border-right-color: rgb(219, 169, 248);
+    border-right-width: 6px;
+    /*
+    border-style: solid;
+    border-width: 2px;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing:" border-box";
+    border-color: rgb(244, 175, 248);*/
+    }
+    /*
+    .navlinks
+    {
+    
+        margin-left: 40px;
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    }
+    */
+    .homelink {
+        padding-left: 45px;
+        font-size: 37px;
+        padding-top: 80px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    
+    }
+    .portfoliolink {
+        padding-left: 45px;
+        font-size: 37px;
+        padding-top: 65px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    }
+    
+    .resumelink {
+        padding-left: 45px;
+        font-size: 37px;
+        padding-top: 45px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    }
+    
+    .contactlink {
+        padding-left: 45px;
+        font-size: 37px;
+        padding-top: 50px;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: white;
+    }
+    
+    /*
+    .thinlinenexttonavbar {
+        display: inline-block;
+        background-color: rgb(168, 196, 248);
+        height: 900px;
+        width: .5%;
+    }
+    */
+    .mainbody {
+        display: inline-block;
+        background-color: black;
+        height: 946px;
+        width: 100%;
+    }
+    
+    .eeveebackground {
+        margin-left: 70px;
+        margin-top: 5px;
+        height: 730px;
+        width: 1350px;
+    }
+
+    .topheaderbox {
+        height: 100px;
+        width: 100%;
+        background-color: black;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(255, 255, 255);
+        border-bottom-width: 2px;
+
+    }
+
+    .acamainpic {
+        display: inline-block;
+        height: 32%;
+        width: 32%;
+        margin-top: 70px;
+        margin-left: 330px;
+
+    }
+
+    .acamainpic1 {
+        display: inline-block;
+        height: 50%;
+        width: 50%;
+        margin-top: 35px;
+        margin-left: 500px;
+        
+
+    }
+    
+    .acawhoweare{
+        display: inline-block;
+        height: 32%;
+        width: 32%;
+        margin-top: 70px;
+        margin-left: 50px;
+        
+    }
+
+    .overview {
+        margin-top: 20px;
+        margin-left: 330px;
+        color: white;
+        font-size: 45px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(236, 124, 124);
+    }
+
+    .overviewdescription {
+        margin-top: 25px;
+        margin-left: 330px;
+        padding-right: 60px;
+        color: white;
+        font-size: 30px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+    .clicktoviewproject {
+        color: white;
+        font-size: 25px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(255, 255, 255);
+        float: right;
+        margin-right: 75px;
+        margin-top: 90px;
+        padding: 13px;
+        border-style: solid;
+        border-color: rgb(255, 255, 255);
+        border-width: 1px;
+        
+    }
+
+    
+    .mainheader {
+        margin-top: 65px;
+        margin-left: 330px;
+        color: white;
+        font-size: 80px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(231, 34, 238);
+    }
+    
+    .mainheader2 {
+        margin-left: 332px;
+        margin-top: 10px;
+        color: white;
+        font-size: 40px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(141, 141, 247);
+    }
+    
+    
+    
+    .aboutme {
+        display: inline-block;
+        height: 400px;
+        width:100%;
+        background-color: rgb(235, 233, 250);
+    }
+    
+    .aboutmeheader {
+        margin-top: 50px;
+        margin-left: 330px;
+        color: white;
+        font-size: 80px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(231, 34, 238);
+    }
+    
+    .aboutmedescription {
+        margin-top: 35px;
+        margin-left: 330px;
+        margin-right: 70px;
+        font-size: 20px;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.8;
+       
+    }
+    
+    .featuredportfoliopiece {
+        display: inline-block;
+        height: 400px;
+        width:100%;
+        background-color: rgb(243, 237, 237);
+    }
+    
+    .interestingfacts {
+        display: inline-block;
+        height: 400px;
+        width:100%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    .interestingfactsheader {
+        margin-top: 70px;
+        margin-left: 330px;
+        color: white;
+        font-size: 71px;
+        font-family: 'Lato', sans-serif;
+        color: rgb(170, 136, 226);
+    }
+    
+    .interestingfactslist {
+        margin-top: 40px;
+        margin-left: 330px;
+        margin-right: 70px;
+        font-size: 27px;
+        font-family: 'Lato', sans-serif;
+        line-height: 1.8;
+        color: white;
+    }
+    
+    .socialmedia {
+        margin-top: 380px;
+        
+    }
+    
+    .facebook {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin-left: 35px;
+        margin-top: 20px;
+    }
+    
+    .instagram {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .linkedin {
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
